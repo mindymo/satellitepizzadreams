@@ -3,66 +3,19 @@
 <head>
 	<title>Satellite Dream Pizza</title>
 	<link href='http://fonts.googleapis.com/css?family=Lemon' rel='stylesheet' type='text/css'>
-	<style>
-	* {
-		margin: 0;
-		padding: 0;
-	}
-	header {
-		background-image: url("https://upload.wikimedia.org/wikipedia/commons/6/62/Starsinthesky.jpg");
-		background-color: navy;
-		background-size: cover;
-	}
-	h1, h3 {
-		font-family: 'Lemon', cursive;
-		font-size: 3.5em;
-		text-align: center;
-		color: white;
-		padding-top: 20px;
-	}
-	h3 {
-		font-size: 2em;
-		padding-bottom: 10px;
-	}
-	#info {
-		max-width: 60%;
-		margin: 0 auto;
-		padding: 20px;
-	}
-	p, h2, td, a {
-		font-family: sans-serif;
-		color: #aaa;
-		padding: 3px;
-	}
-	h2, #welcome {
-		font-size: 1.25em;
-		padding: 5px 0;
-	}
-	a {
-		text-decoration: none;
-	}
-	a:hover {
-		color: #789;
-	}
-	hr {
-		color: #aaa;
-		margin: 10px 0;
-	}
-	img {
-		float: right;
-		position: inline;
-	}
-	</style>
+	<link rel="stylesheet" type="text/css" href="stylesheet.css">
 </head>
 <body>
 	<header>
-			<h1>Satellite Dream Pizza</h1>
-			<h3>Portland, Oregon</h3>
+		<h1>Satellite Dream Pizza</h1>
+		<h3>Portland, Oregon</h3>
 	</header>
 	<div id="info">
+		<a href="http://www.americandreampizzapdx.com/cms-assets/documents/185721-782595.americandreammenu.pdf"><h2 class="link" id="menu">MENU</h2></a>
+		<hr>
 		<p id="welcome">Located in the heart of Sellwood, Satellite Dream offers hand-crafted pizzas and out-of-this-world service. Stop in for a slice today!</p>
 		<hr>
-		<img src="http://s3-media1.fl.yelpcdn.com/bphoto/p9pg_W-GNF-LxEKaHoH6CQ/o.jpg" width=60%>
+		<img id="slice" src="http://s3-media1.fl.yelpcdn.com/bphoto/p9pg_W-GNF-LxEKaHoH6CQ/o.jpg" width=60%>
 		<h2>Hours</h2>
 		<table>
 			<tr>
@@ -87,10 +40,16 @@
 				<td>Sunday:</td><td>12:00 - 10:00</td>
 			</tr>
 		</table>
+		
+		<h2>Location</h2>
+		<a href="https://www.google.com/maps/place/6116+SE+Milwaukie+Ave,+Portland,+OR+97202/@45.4783033,-122.6490347,17z/data=!3m1!4b1!4m2!3m1!1s0x54950aeb530a02dd:0xdf345593d5533b5a"><p class="link">6116 SE Milwaukie Ave.<br>Portland, OR 97202</p></a>
 		<h2>Order by Phone</h2>
 		<p>(503) 548-4444</p>
-		<h2>Location</h2>
-		<a href="https://www.google.com/maps/place/6116+SE+Milwaukie+Ave,+Portland,+OR+97202/@45.4783033,-122.6490347,17z/data=!3m1!4b1!4m2!3m1!1s0x54950aeb530a02dd:0xdf345593d5533b5a">6116 SE Milwaukie Ave.<br>Portland, OR 97202</a>
+		<hr>
 	</div>
+	<footer>
+		<a href="http://www.yelp.com/biz/satellite-dream-pizza-portland?sort_by=date_desc"><img src="http://uploads.strikinglycdn.com/page/images/icons/yelp-icon.png" height=60px></a>
+		<a href="https://www.facebook.com/pages/Satellite-Dream-Pizza/1610210895883033"><img src="http://s3-eu-west-1.amazonaws.com/nusdigital/image/images/16226/original/icon_facebook-b.png" height=60px></a>
+	</footer>
 </body>
 </html>
