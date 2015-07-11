@@ -35,6 +35,14 @@ h2, #welcome {
 	padding: 5px 0;
 }
 
+/* Nav Bar Styles */
+
+nav {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
 /* Main Section Styles */
 
 #info {
@@ -59,9 +67,14 @@ hr {
 /* Footer Styles */
 
 footer {
-	margin: auto;
-	width: 20%;
+	display: flex;
+	justify-content: center;
 	opacity: 0.6;
+	margin-bottom: 20px;
+}
+
+footer img {
+	margin: 5px;
 }
 
 /*	Link Styles */
@@ -81,8 +94,5 @@ a:hover {
 @media (max-width: 900px) {
   #slice {
     display: none;
-  }
-  footer {
-  	width: 40%;
   }
 }
