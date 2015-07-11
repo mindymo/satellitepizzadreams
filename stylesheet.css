@@ -42,6 +42,10 @@ nav {
 	flex-wrap: wrap;
 	justify-content: space-between;
 }
+.current {
+	color: #777;
+	font-size: 1.4em;
+}
 
 /* Main Section Styles */
 
@@ -85,8 +89,8 @@ a {
 a:hover {
 	opacity: 0.75;
 }
-.link:hover {
-	color: #777;
+a:visited {
+	color: #aaa;
 }
 
 /* Responsive */
