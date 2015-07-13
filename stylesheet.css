@@ -96,7 +96,11 @@ a:visited {
 /* Responsive */
 
 @media (max-width: 900px) {
+  #info {
+  	width: 90%;
+  }	
   #slice {
-    display: none;
+    float: none;
+    width: 100%;
   }
 }
