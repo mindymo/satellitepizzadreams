@@ -68,6 +68,15 @@ hr {
 	text-align: center;
 }
 
+/* Form Styles */
+
+button {
+	font-size: 1.25em;
+	background-color: #999;
+	color: white;
+	border-radius: 5px;
+}
+
 /* Footer Styles */
 
 footer {
